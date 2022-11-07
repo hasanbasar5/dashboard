@@ -1,0 +1,1430 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #EB8703;
+    display: flex;
+
+    align-items: center;
+}
+
+.logo h2 {
+    margin-left: 50px;
+    color: white;
+}
+
+.fa-bars {
+    color: white;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.name h2 {
+    font-size: 16px;
+    margin-left: 450px;
+    color: white;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.search-box input {
+    margin-left: 100px;
+    border: none;
+    width: 500px;
+
+    border-radius: 20px;
+    padding: 10px;
+    text-align: left;
+
+}
+.name {
+  margin-left: -142px;
+}
+.profile img {
+    margin-left: 6px;
+}
+
+.fa-magnifying-glass {
+    margin-left: -40px;
+    color: gray;
+}
+
+main {
+    display: flex;
+}
+
+.main {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 50px;
+    background-color: black;
+    width: 200px;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 80px;
+    padding-bottom: 366px;
+    color: white;
+   
+
+}
+.fa-bars:hover ~ .main{
+ display: block;
+}
+
+.main-1 {
+    display: flex;
+    gap: 15px;
+    position: relative;
+  
+
+}
+.main-1::before{
+  content: " ";
+  width: 60px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  top: 24px;
+  left: 34px;
+  display: none;
+  
+  
+}
+.main-1:hover::before{
+  display: block;
+  animation: ani 1s forwards;
+}
+@keyframes ani {
+  from{
+    width: 0px;
+  }
+  to{
+    width: 70px;
+  }
+}
+.main-2 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    position: relative;
+  
+
+}
+.main-2::before{
+  content: " ";
+  width: 60px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  top: 24px;
+  left: 34px;
+  display: none;
+  
+  
+}
+.main-2:hover::before{
+  display: block;
+  animation: ani1 1s forwards;
+}
+@keyframes ani1 {
+  from{
+    width: 0px;
+  }
+  to{
+    width: 60px;
+  }
+}
+
+.main-2 p {
+    width: fit-content;
+    height: 10px;
+    background-color: red;
+    padding: 5px;
+    font-size: 12px;
+    margin-top: 0px;
+    padding-top: -3px;
+}
+
+.main-3 {
+    display: flex;
+    gap: 15px;
+    position: relative;
+  
+
+}
+.main-3::before{
+  content: " ";
+  width: 60px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  top: 24px;
+  left: 30px;
+  display: none;
+  
+  
+}
+.main-3:hover::before{
+  display: block;
+  animation: ani2  1s forwards;
+} 
+@keyframes ani2 {
+  from{
+    width: 0px;
+  }
+  to{
+    width: 60px;
+  }
+}
+
+.main-4 {
+    display: flex;
+    gap: 10px;
+    position: relative;
+  
+
+}
+.main-4::before{
+  content: " ";
+  width: 60px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  top: 24px;
+  left: 30px;
+  display: none;
+  
+  
+}
+.main-4:hover::before{
+  display: block;
+  animation: ani3 1s forwards;
+}
+@keyframes ani3 {
+  from{
+    width: 0px;
+  }
+  to{
+    width: 40px;
+  }
+}
+
+.main-5 {
+    display: flex;
+    gap: 15px;
+    position: relative;
+  
+
+}
+.main-5::before{
+  content: " ";
+  width: 60px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  top: 24px;
+  left: 32px;
+  display: none;
+  
+  
+}
+.main-5:hover::before{
+  display: block;
+  animation: ani4 1s forwards;
+}
+@keyframes ani4 {
+  from{
+    width: 0px;
+  }
+  to{
+    width: 60px;
+  }
+}
+
+.main-6 {
+    display: flex;
+    gap: 15px;
+    position: relative;
+  
+
+}
+.main-6::before{
+  content: " ";
+  width: 60px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  top: 24px;
+  left: 32px;
+  display: none;
+  
+  
+}
+.main-6:hover::before{
+  display: block;
+  animation: ani5 1s forwards;
+}
+@keyframes ani5 {
+  from{
+    width: 0px;
+  }
+  to{
+    width: 60px;
+  }
+}
+
+/* .over-view {
+    margin-top: 20px;
+    margin-left: 20px;
+} */
+
+/* charts {
+    margin-top: 30px;
+    background-color: blue;
+    width: 500px;
+    height: 300px;
+} */
+main h6{
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+   
+}
+
+.over-view {
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 402px;
+    height: 200px;
+    padding: 30px;
+    position: relative;
+    margin-left: -130px;
+    margin-top: 80px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px gray;
+}
+
+.over-view h1 {
+    width: 310px;
+    height: 1px;
+    background-color: gray  ;
+    position: absolute;
+    top: 94px;
+    left: 110px;
+    z-index: -1;
+}
+
+.over-view h2 {
+    width: 310px;
+    height: 1px;
+    background-color: gray;
+    position: absolute;
+    top: 133px;
+    left: 110px;
+    z-index: -1;
+}
+
+.over-view h4 {
+    margin-top: -20px;
+    color: gray;
+  
+}
+
+.over-view h3 {
+    width: 310px;
+    height: 1px;
+    background-color: gray;
+    position: absolute;
+    top: 170px;
+    left: 110px;
+    z-index: -1;
+}
+
+.over-view .range div {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.over-view .row-order {
+    display: flex;
+    gap: 28px;
+    position: absolute;
+    top: 230px;
+    left: 115px;
+}
+
+.over-view.row-number {
+    display: flex;
+    gap: 10px;
+    left: 110px;
+  
+}
+
+.over-view .row-number .r-1 h3 {
+    width: 1px;
+    height: 5px;
+    position: absolute;
+    top: 224px;
+    left: 122px;
+}
+
+.over-view .row-number .r-2 h3 {
+    width: 1px;
+    height: 5px;
+    position: absolute;
+    top: 224px;
+    left: 163px;
+}
+
+.over-view .row-number .r-3 h3 {
+    width: 1px;
+    height: 5px;
+    position: absolute;
+
+    top: 224px;
+    left: 204px;
+}
+
+.over-view .row-number .r-4 h3 {
+    width: 1px;
+    height: 5px;
+
+    position: absolute;
+    top: 224px;
+    left: 246px;
+}
+
+.over-view .row-number .r-5 h3 {
+    width: 1px;
+    height: 5px;
+    position: absolute;
+    top: 224px;
+    left: 287px;
+}
+
+.over-view .row-number .r-6 h3 {
+    width: 1px;
+    height: 5px;
+    position: absolute;
+    top: 224px;
+    left: 328px;
+}
+
+.over-view .row-number .r-7 h3 {
+    width: 1px;
+    height: 5px;
+    position: absolute;
+    top: 224px;
+
+    left: 369px;
+}
+
+.over-view .row-number .r-8 h3 {
+    width: 1px;
+    height: 5px;
+    position: absolute;
+    top: 224px;
+    left: 410px;
+}
+
+.bars {
+    display: flex;
+    gap: 16px;
+    margin-top: -166px;
+    margin-left: 80px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+
+.i1 {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap-reverse;
+}
+
+.i1 .i-1 {
+    background-color:#4247db;
+    height: 60px;
+    width: 10px;
+    animation: one 2s forwards;
+}
+@keyframes one {
+  from{
+    height: 0px;
+    width: 10px;
+  }
+  to{
+    height: 60px;
+    width: 10px;
+  }
+}
+
+.i1 .i-2 {
+    background-color:#EB8703;
+    height: 100px;
+    width: 10px;
+    animation: two 2s forwards;
+}
+@keyframes two {
+  from{
+    height: 0px;
+    width: 10px;
+  }
+  to{
+    height: 100px;
+    width: 10px;
+  }
+}
+
+.i2 {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap-reverse;
+}
+
+.i2 .i-1 {
+    background-color:#4247db;
+    height: 55px;
+    width: 10px;
+    animation: four 2s forwards;
+}
+@keyframes four {
+  from{
+    height: 0px;
+    width: 10px;
+  }
+  to{
+    height: 55px;
+    width: 10px;
+  }
+}
+
+
+.i2 .i-2 {
+    background-color:#EB8703;
+    height: 90px;
+    width: 10px;
+    animation: five 2s forwards;
+}
+@keyframes five {
+  from{
+    height: 0px;
+    width: 10px;
+  }
+  to{
+    height: 90px;
+    width: 10px;
+  }
+}
+
+.i3 {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap-reverse;
+    
+}
+@keyframes three {
+  from{
+    height: 0px;
+    width: 10px;
+  }
+  to{
+    height: 105px;
+    width: 10px;
+  }
+}
+
+.i3 .i-1 {
+    background-color:#4247db;
+    height: 105px;
+    width: 10px;
+    animation: three 2s forwards;
+}
+
+.i3 .i-2 {
+    background-color: #EB8703;
+    height: 130px;
+    width: 10px;
+    animation: six 2s forwards;
+}
+@keyframes six {
+  from{
+    height: 0px;
+    width: 10px;
+  }
+  to{
+    height: 130px;
+    width: 10px;
+  }
+}
+
+
+.i4 {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap-reverse;
+}
+
+.i4 .i-1 {
+    background-color:#4247db;
+    height: 110px;
+    width: 10px;
+    animation: seven 2s forwards;
+}
+@keyframes seven {
+  from{
+    height: 0px;
+    width: 10px;
+  }
+  to{
+    height: 110px;
+    width: 10px;
+  }
+}
+
+.i4 .i-2 {
+    background-color: #EB8703;
+    height: 100px;
+    width: 10px;
+    animation: eight 2s forwards;
+}
+@keyframes eight {
+  from{
+    height: 0px;
+    width: 10px;
+  }
+  to{
+    height: 100px;
+    width: 10px;
+  }
+}
+
+.i5 {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap-reverse;
+}
+
+.i5 .i-1 {
+    background-color:#4247db;
+    height: 120px;
+    width: 10px;
+    animation: nine 2s forwards;
+}
+@keyframes nine {
+  from{
+    height: 0px;
+    width: 10px;
+  }
+  to{
+    height: 120px;
+    width: 10px;
+  }
+}
+
+.i5 .i-2 {
+    background-color: #EB8703;
+    height: 90px;
+    width: 10px;
+    animation: ten 2s forwards;
+}
+@keyframes ten {
+  from{
+    height: 0px;
+    width: 10px;
+  }
+  to{
+    height: 90px;
+    width: 10px;
+  }
+}
+
+
+.i6 {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap-reverse;
+}
+
+.i6 .i-1 {
+    background-color:#4247db;
+    height: 100px;
+    width: 10px;
+    animation: eleven 2s forwards;
+}
+@keyframes eleven {
+  from{
+    height: 0px;
+    width: 10px;
+  }
+  to{
+    height: 100px;
+    width: 10px;
+  }
+}
+
+.i6 .i-2 {
+    background-color: #EB8703;
+    height: 160px;
+    width: 10px;
+    animation: twelve 2s forwards;
+}
+@keyframes twelve {
+  from{
+    height: 0px;
+    width: 10px;
+  }
+  to{
+    height: 160px;
+    width: 10px;
+  }
+}
+
+.i7 {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap-reverse;
+}
+
+.i7 .i-1 {
+    background-color:#4247db;
+    height: 120px;
+    width: 10px;
+    animation: thirteen 2s forwards;
+}
+@keyframes thirteen {
+  from{
+    height: 0px;
+    width: 10px;
+  }
+  to{
+    height: 120px;
+    width: 10px;
+  }
+}
+
+.i7 .i-2 {
+    background-color: #EB8703;
+    height: 130px;
+    width: 10px;
+    animation: fourteen 2s forwards;
+    
+}
+@keyframes fourteen {
+  from{
+    height: 0px;
+    width: 10px;
+  }
+  to{
+    height: 130px;
+    width: 10px;
+  }
+}
+
+.i8 {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap-reverse;
+}
+
+.i8 .i-1 {
+    background-color:#4247db;
+    height: 130px;
+    width: 10px;
+    animation: fifteen 2s forwards;
+    
+}
+@keyframes fifteen {
+  from{
+    height: 0px;
+    width: 10px;
+  }
+  to{
+    height: 130px;
+    width: 10px;
+  }
+}
+
+.i8 .i-2 {
+    background-color:#EB8703;
+    height: 150px;
+    width: 10px;
+    animation: sixteen 2s forwards;
+}
+/* @keyframes sixteen {
+  from{
+    height: 0px;
+    width: 10px;
+  }
+  to{
+    height: 150px;
+    width: 10px;
+  }
+} */
+.map{
+    margin-top: 100px ;
+    width: 450px;
+    height: 320px;
+    margin-left: -32px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    object-fit: fill;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px gray;
+    position: relative;
+    margin-bottom: 30px;
+   
+    
+}
+.map h5{
+    color: gray;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-size: 16px;
+}
+.map img{
+    margin-top: 10px;
+}
+.map .fa-location-dot{
+    color:#4247db;
+    position: absolute;
+    top: 60px;
+    left: 160px;
+}
+ .map #map-1{
+    color:#EB8703;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+}
+.map #map-2{
+    color:#4247db;
+    position: absolute;
+    top: 150px;
+    left: 112px;
+}
+.map #map-3{
+    color:#EB8703;
+    position: absolute;
+    top: 220px;
+    left: 150px;
+}
+.map #map-4{
+    color:#4247db;
+    position: absolute;
+    top: 240px;
+    left: 240px;
+}
+.map #map-5{
+    color:#EB8703;
+    position: absolute;
+    top: 140px;
+    left: 220px;
+}
+.map #map-6{
+    color:#4247db;
+    position: absolute;
+    top: 70px;
+    left: 320px;
+}
+.map #map-7{
+    color:#EB8703;
+    position: absolute;
+    top: 110px;
+    left: 300px;
+}
+.map #map-8{
+    color:#4247db;
+    position: absolute;
+    top: 160px;
+    left: 340px;
+}
+.map #map-9{
+    color:#EB8703;
+    position: absolute;
+    top: 260px;
+    left: 360px;
+}
+.map .fa-location-dot{
+    font-size: 14px;
+}
+.show-map-color{
+    display: flex;
+}
+.show-map-color-01{
+    display: flex;
+}
+.show-map-color #map-10{
+    color:#4247db;
+    position: absolute;
+    top:300px;
+    left: 200px;
+
+}
+.show-map-color .show-map-color-01 p{
+  color: gray;
+    position: absolute;
+    top:300px;
+    left: 220px;
+
+}
+.show-map-color-02{
+    display: flex;
+}
+.show-map-color #map-11{
+    color: #EB8703;
+    position: absolute;
+    top:300px;
+    left: 300px;
+
+} 
+.show-map-color .show-map-color-02 p{
+    color: gray;
+      position: absolute;
+      top:300px;
+      left: 320px;
+  
+  }
+  .calculation{
+    width: 540px;
+    height: 180px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    display: flex;
+    gap: 50px;
+    margin-top: 80px;
+    position: relative;
+    padding: 5px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px gray;
+    margin-left: 30px;
+    
+
+  }
+  .calculation h1{
+    font-size: 16px;
+    color: gray;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+  }
+  .calculation .cal-1{
+    margin-top: 40px;
+    margin-left: 70px;
+    
+
+  }
+  .calculation .cal-1 h2{
+    font-size: 20px;
+    color: gray;
+  }
+  .calculation .cal-1 .fa-dollar-sign{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.798);
+   margin-left: 30px;
+  }
+  .calculation .cal-1 h4{
+    color:rgba(0, 0, 0, 0.798);
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .calculation .cal-1 p{
+    color: gray;
+    margin-left: -12px;
+  }
+  .calculation .cal-2{
+    margin-top: 40px;
+  }
+  .calculation .cal-2 h2{
+    font-size: 20px;
+    color: gray;
+  }
+  .calculation .cal-2 .fa-down-long{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.798);
+    margin-left: 30px;
+  }
+  .calculation .cal-2 h4{
+    color:rgba(0, 0, 0, 0.798);
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .calculation .cal-2 P{
+    margin-left: -12px;
+    color: gray;
+  }
+  .calculation .cal-3{
+    margin-top: 40px;
+  }
+  .calculation .cal-3 h2{
+    font-size: 20px;
+    color: gray;
+  }
+  .calculation .cal-3 .fa-star{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.798);
+    margin-left: 20px;
+  }
+  .calculation .cal-3 h4{
+    color:rgba(0, 0, 0, 0.769);
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .calculation .cal-3 p{
+    margin-left: -12px;
+    color: gray;
+  }
+  .analitycal{
+    width: 280px;
+    height: 320px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding: 5px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px gray;
+    margin-left: 34px;
+    margin-top: 20px;
+    position: relative;
+  }
+  .analitycal h3{
+    color: gray;
+    font-size: 16px;
+    position: absolute;
+    top:10px;
+    left: 17px;
+  }
+  .analitycal .a-flex{
+    margin-top: 20px;
+  }
+  .analitycal .a-1{
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+    margin-top: px;
+  }
+  .analitycal .a-1 h6{
+    width: 100px;
+    font-size: 14px;
+   
+
+  }
+  .analitycal .a-1 h2{
+    width: 110px;
+    height: 8px;
+    background-color:#EB8703;
+    margin-left: 5px;
+    margin-top: 22px;
+    animation: B-1 2s  forwards;
+  }
+  @keyframes B-1 {
+    from{
+      width:0px;
+    }
+    to{
+      width: 110px;
+    }
+  }
+  .analitycal .a-1 p{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .analitycal .a-2{
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+    margin-top: px;
+  }
+  .analitycal .a-2 h6{
+    width: 100px;
+    font-size: 14px;
+
+  }
+  .analitycal .a-2 h2{
+    width: 70px;
+    height: 8px;
+    background-color:#4247db;
+    margin-left: 5px;
+    margin-top: 22px;
+    animation: B-2 2s  forwards;
+  }
+  @keyframes B-2 {
+    from{
+      width:0px;
+    }
+    to{
+      width: 70px;
+    }
+  }
+  .analitycal .a-2 p{
+    font-size: 12px;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .analitycal .a-3{
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+    margin-top: px;
+  }
+  .analitycal .a-3 h6{
+    width: 100px;
+    font-size: 14px;
+
+  }
+  .analitycal .a-3 h2{
+    width: 35px;
+    height: 8px;
+    background-color:#EB8703;
+    margin-left: 5px;
+    margin-top: 22px;
+    animation: B-3 2s  forwards;
+  }
+  @keyframes B-3 {
+    from{
+      width:0px;
+    }
+    to{
+      width: 35px;
+    }
+  }
+  .analitycal .a-3 p{
+    font-size: 12px;
+    margin-left: 85px;
+    margin-top: 20px;
+  }
+  .analitycal .a-4{
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+    margin-top: px;
+  }
+  .analitycal .a-4 h6{
+    width: 100px;
+    font-size: 14px;
+
+  }
+  .analitycal .a-4 h2{
+    width: 55px;
+    height: 8px;
+    background-color:#4247db;
+    margin-left: 5px;
+    margin-top: 22px;
+    animation: B-4 2s  forwards;
+  }
+  @keyframes B-4 {
+    from{
+      width:0px;
+    }
+    to{
+      width: 55px;
+    }
+  }
+  .analitycal .a-4 p{
+    font-size: 12px;
+    margin-left: 66px;
+    margin-top: 20px;
+  }
+  .analitycal .a-5{
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+    margin-top: px;
+  }
+  .analitycal .a-5 h6{
+    width: 100px;
+    font-size: 14px;
+
+  }
+  .analitycal .a-5 h2{
+    width: 46px;
+    height: 8px;
+    background-color:#EB8703;
+    margin-left: 5px;
+    margin-top: 22px;
+    animation: B-5 2s  forwards;
+  }
+  @keyframes B-5 {
+    from{
+      width:0px;
+    }
+    to{
+      width: 46px;
+    }
+  }
+  .analitycal .a-5 p{
+    font-size: 12px;
+    margin-left: 75px;
+    margin-top: 20px;
+  }
+  .analitycal .a-6{
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+    margin-top: px;
+  }
+  .analitycal .a-6 h6{
+    width: 100px;
+    font-size: 14px;
+
+
+  }
+  .analitycal .a-6 h2{
+    width: 95px;
+    height: 8px;
+    background-color:#4247db;
+    margin-left: 5px;
+    margin-top: 22px;
+    animation: B-6 2s  forwards;
+  }
+  @keyframes B-6 {
+    from{
+      width:0px;
+    }
+    to{
+      width: 95px;
+    }
+  }
+  .analitycal .a-6 p{
+    font-size: 12px;
+    margin-left: 26px;
+    margin-top: 20px;
+  }
+  .analitycal .a-7{
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+    margin-top: px;
+  }
+  .analitycal .a-7 h6{
+    width: 100px;
+    font-size: 14px;
+
+  }
+  .analitycal .a-7 h2{
+    width: 50px;
+    height: 8px;
+    background-color:#EB8703;
+    margin-left: 5px;
+    margin-top: 22px;
+    animation: B-7 2s  forwards;
+  }
+  @keyframes B-7 {
+    from{
+      width:0px;
+    }
+    to{
+      width: 50px;
+    }
+  }
+  .analitycal .a-7 p{
+    font-size: 12px;
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+  .analitycal .a-8{
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+    margin-top:px;
+  }
+  .analitycal .a-8 h6{
+    width: 100px;
+    font-size: 14px;
+
+  }
+  .analitycal .a-8 h2{
+    width: 80px;
+    height: 8px;
+    background-color:#4247db;
+    margin-left: 5px;
+    margin-top: 22px;
+    animation: B-8 2s  forwards;
+  }
+  @keyframes B-8 {
+    from{
+      width:0px;
+    }
+    to{
+      width: 80px;
+    }
+  }
+  .analitycal .a-8 p{
+    font-size: 12px;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  .column-flex{
+    display: flex;
+    
+  }
+  .circle{
+    margin-left: 50px;
+    width: 200px;
+    height: 320px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    margin-left: 50px;
+    padding:5px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px gray;
+    margin-top: 20px;
+  }
+  .c-1 h6{
+    position: absolute;
+    top: 12px;
+    font-size: 14px;
+    left: -24px;
+    color: white;
+  }
+  .circle .c-1{
+    position: relative;
+    margin-left: 60px;
+  }
+  .circle #c1{
+    position: absolute;
+    top: 0px;
+    fill:#4247db;
+    stroke-width: 7px;
+    stroke: white;
+  }
+  .circle #c2{
+    fill: #EB8703;
+    stroke-width: 19px;
+    stroke: #EB8703;
+    stroke-dasharray: 140;
+    
+    animation: c-1 3s  forwards;
+  }
+  @keyframes c-1 {
+    from{
+      stroke-dasharray: 0;
+      stroke: #4247db;
+    }
+    to{
+      stroke-dasharray: 140;
+      stroke: #EB8703;
+    }
+  }
+  .circle p{
+    position: absolute;
+    top: 90px;
+    left: 15px;
+  }
+  .circle .c-2{
+    position: relative;
+    margin-left: 60px;
+    margin-top: -46px;
+  }
+  .c-2 h6{
+    position: absolute;
+    top: 12px;
+    font-size: 14px;
+    left: -24px;
+    color: white;
+  }
+  .circle #c3{
+    position: absolute;
+    top: 0px;
+    fill:#4247db;
+    stroke-width: 7px;
+    stroke: white;
+  }
+  .circle #c4{
+    fill:#EB8703;
+    stroke-width: 18px;
+    stroke:#EB8703;
+    stroke-dasharray: 160;
+    animation: c-2 3s  forwards;
+  }
+  @keyframes c-2 {
+    from{
+      stroke-dasharray: 0;
+      stroke: #4247db;
+    }
+    to{
+      stroke-dasharray: 160;
+      stroke: #EB8703;
+    }
+  }
+  .circle p{
+    position: absolute;
+    top: 80px;
+    left: 15px;
+  }
+  .c-3 h6{
+    position: absolute;
+    top: 12px;
+    font-size: 14px;
+    left: -24px;
+    color: white;
+  }
+  .circle .c-3{
+    position: relative;
+    margin-left: 60px;
+    margin-top: -46px;
+  }
+  .circle #c5{
+    position: absolute;
+    top: 0px;
+    fill:#4247db;
+    stroke-width: 8px;
+    stroke: white;
+  }
+  .circle #c6{
+    fill:#EB8703;
+    stroke-width: 18px;
+    stroke: #EB8703;
+    stroke-dasharray: 180;
+    animation: c-3 3s  forwards;
+  }
+  @keyframes c-3 {
+    from{
+      stroke-dasharray: 0;
+      stroke: #4247db;
+    }
+    to{
+      stroke-dasharray: 180;
+      stroke: #EB8703;
+    }
+  }
+  .circle p{
+    position: absolute;
+    top: 80px;
+    left: 15px;
+
+  }
+  .update{
+    display: flex;
+    gap: 30px;
+    align-items:center;
+    border: 1px solid rgba(0, 0, 0, 0);
+    height: 150px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px gray;
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+  .update .date p{ 
+    margin-left: 30px;
+    color: #EB8703;
+    font-size: 20px;
+  }
+  .update .text h4{
+    margin-left: 30px;
+    color: gray;
+    
+  }
+  .update .text p{
+width: 350px;
+margin-left: 30px;
+padding-top: 10px;
+color: gray;
+  }
